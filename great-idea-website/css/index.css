@@ -1,3 +1,4 @@
+
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
@@ -64,3 +65,93 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+.container{
+	max-width: 900px;
+	margin: 0 auto;
+}
+header{
+	display: inline-block;
+}
+.nav-menu{
+	float: left;
+	margin: 30px;
+	text-decoration: none;
+}
+a{
+	padding: 20px;
+	text-decoration: none;
+}
+.logo{
+	float: right;
+	margin: 20px 20px 20px 20px;
+}
+.mantra {
+	padding: 20px;
+	display: inline-block;
+    border: 1px ;
+    margin-top: 50px;
+}
+
+.mantra-left{
+	display: inline-block;
+    width: 440px;
+	height: 300px;
+	vertical-align: bottom
+}
+.mantra-right{
+	display: inline-block;
+	float: right;
+	margin-top: -50px;
+	padding-left: 40px;
+	vertical-align: bottom
+}
+
+.mantra * {
+    text-align: center;
+} 
+
+.mantra-left h1 {
+	font-size: 50px;
+}
+button {
+	padding: 10px;
+}
+
+.features {
+	float: left;
+	max-width: 400px;
+	margin:20px 0px 20px 20px;
+}
+.about {
+	float: right;
+	max-width: 400px;
+	margin:20px 0px 20px 0px;
+}
+.services {
+	float: left;
+	width: 32%;
+	margin:10px 0px 10px 10px;
+}
+.product {
+	float: left;
+	width: 32%;
+	margin:10px 0px 10px 0px;
+}
+.vision {
+	float: left;
+	width: 32%;
+	margin:10px 0px 10px 0px;
+}
+hr {
+	width: 100%;
+
+}
+address{
+	display: inline-block;
+}
+.middle-img {
+	padding: 10px; 
+}
+footer {
+	text-align: center;
+}
